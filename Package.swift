@@ -17,9 +17,9 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/krzyzanowskim/OpenSSL.git", exact: Version("1.1.1900")),
         .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", exact: Version("7.6.5")),
-        .package(url: "https://github.com/chiragramani/FlipperPluginUtils",
+        .package(url: "https://github.com/njayawa/FlipperPluginUtils",
                  branch: "main"),
-        .package(url: "https://github.com/chiragramani/FlipperLitePeertalk",
+        .package(url: "https://github.com/njayawa/FlipperLitePeertalk",
                  branch: "main"),
     ],
     targets: [
